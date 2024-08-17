@@ -135,7 +135,7 @@ function CreateOrder() {
           {address === "" && (
             <span className="absolute right-1 bottom-[5px] top-[-3px]">
               <button
-                className="mt-2 inline-block rounded-full bg-yellow-400 px-2 py-1 font-semibold tracking-wide text-stone-800 transition-all duration-75 hover:bg-yellow-300"
+                className="mt-[2rem] sm:mt-2 inline-block rounded-full bg-yellow-400 px-2 py-1 font-semibold tracking-wide text-stone-800 transition-all duration-75 hover:bg-yellow-300"
                 onClick={(e) => {
                   e.preventDefault();
                   handlerGeolocation();
